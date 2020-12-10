@@ -230,6 +230,7 @@ ourTitle.textContent = 'Konichiwa, Ciao, Ya sas, Hi, Salut.';
 */
 
 // TAREA: Actualizá el valor del atributo 'src' de nuestra etiqueta 'img' a "img/kittens.jpeg".
+
 const mainImage = document.querySelector('body main div img');
     //mainImage.src = "img/kittens.jpeg";
 
@@ -283,6 +284,7 @@ mainImage.style.height = '100%';
     nuevoParrafo.appendChild(textoParrafo);
     nodoPagina.appendChild(nuevoParrafo);
 */
+
 const indexBody = document.querySelector('body');
 const myOwnDiv = document.createElement('div');
 indexBody.appendChild(myOwnDiv);
@@ -292,9 +294,9 @@ myOwnDiv.appendChild(divTitle);
 divTitle.appendChild(titleText);
 const palpatine = document.createElement('img');
 myOwnDiv.appendChild(palpatine);
-palpatine.src = ('https://i.postimg.cc/bN6hSN6X/UNLIMITED-POWER.gif');
-myOwnDiv.style.display = ('inline-flex');
-myOwnDiv.style.alignItems = ('center');
+palpatine.src = 'https://i.postimg.cc/bN6hSN6X/UNLIMITED-POWER.gif';
+myOwnDiv.style.display = 'inline-flex';
+myOwnDiv.style.alignItems = 'center';
 
 
 
@@ -306,8 +308,8 @@ myOwnDiv.style.alignItems = ('center');
 //
 // P.S. También les podés dar estilos al nuevo nodo que creaste.
 
-mainImage.src = ("https://i.postimg.cc/CLM0KfsH/Ezequiels-test.gif");
-mainImage.alt = ("Nobody visits my webpage");
+mainImage.src = "https://i.postimg.cc/CLM0KfsH/Ezequiels-test.gif";
+mainImage.alt = "Nobody visits my webpage";
 
 
 
